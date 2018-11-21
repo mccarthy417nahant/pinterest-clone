@@ -26,10 +26,17 @@ before_action :find_pin, only: [:show, :edit, :update, :destroy]
   end
 
   def update
+    if @pin.update(pin_params)
+      redirect_to @pin, notice: "Pin was successfully updated"
+    else
+      render 'edit'
+    end
   end
 
   def destroy
-  end 
+    @pin.destroy
+    redirect_to root_path
+  end
 
   private
 
