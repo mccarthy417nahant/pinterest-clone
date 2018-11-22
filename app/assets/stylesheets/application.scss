@@ -19,7 +19,7 @@
  @import "bootstrap";
 
  body {
- 	background: #E9E9E9;
+ 	background: #A4A4A4;
  }
 
  h1, h2, h3, h4, h5, h6 {
@@ -45,7 +45,7 @@
  	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
  	.navbar-brand {
  		a {
- 			color: #BD1E23;
+ 			color: #0000FF;
  			font-weight: bold;
  			&:hover {
  				text-decoration: none;
@@ -64,15 +64,15 @@
  	  border-radius: 7px;
  	  text-align: center;
  	  img {
- 	  	max-width: 300px;
- 	  	max-height: auto;
+ 	  	max-width: 100%;
+ 	  	height: auto;
  	  }
  	  h2 {
  	  	font-size: 22px;
  	  	margin: 0;
  	  	padding: 25px 10px;
  	  	a {
- 				color: #474747;
+ 				color: #000000;
  	  	}
  	  }
  	  .user {
@@ -99,8 +99,8 @@
  	}
  	.pin_image {
  		img {
- 			max-width: 300px;
- 			max-height: 300px;
+ 			max-width: 100%;
+ 			width: 100%;
  			display: block;
  			margin: 0 auto;
  		}
@@ -111,7 +111,7 @@
  			margin: 0 0 10px 0;
  		}
  		.description {
- 			color: #868686;
+ 			color: #000000;
  			line-height: 1.75;
  			margin: 0;
  		}
