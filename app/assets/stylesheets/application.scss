@@ -64,8 +64,8 @@
  	  border-radius: 7px;
  	  text-align: center;
  	  img {
- 	  	max-width: 100%;
- 	  	height: auto;
+ 	  	max-width: 300px;
+ 	  	max-height: auto;
  	  }
  	  h2 {
  	  	font-size: 22px;
@@ -99,8 +99,8 @@
  	}
  	.pin_image {
  		img {
- 			max-width: 100%;
- 			width: 100%;
+ 			max-width: 300px;
+ 			max-height: 300px;
  			display: block;
  			margin: 0 auto;
  		}
