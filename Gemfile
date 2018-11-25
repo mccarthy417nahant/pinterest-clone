@@ -19,7 +19,7 @@ gem 'devise', '~> 4.5'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'acts_as_votable', '~> 0.12.0'
 gem 'paperclip', '~> 6.1'
-gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
+gem 'aws-sdk', '~> 3.0', '>= 3.0.1', require: false
 gem 'sqlite3', group: :development
 gem 'pg', group: :production
 gem 'rails_12factor'
