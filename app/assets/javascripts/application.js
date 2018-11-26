@@ -14,6 +14,7 @@
 //= require activestorage
 //= require turbolinks
 //= require jquery
+//= require jquery.turbolinks
 //= require masonry/jquery.masonry
 //= require bootstrap-sprockets
 //= require_tree .
